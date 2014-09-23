@@ -1,6 +1,8 @@
-(ns ^{:doc "Tiny library using logit programming to put words into a crossword/wordsearch style board (or vice versa)
-            There are lots of things it currently doesn't do such as revers or diagonal words.
-            Reverse words would be trivial to add. Diagonals would be harder."
+(ns ^{:doc "Tiny library using logic programming to put words into a
+            crossword/wordsearch style board (or vice versa) There are
+            lots of things it currently doesn't do such as reverse or
+            diagonal words.  Reverse words would be trivial to
+            add. Diagonals would be harder."
        :author "Zachary Miller"}
   crossword.crossword
   (:refer-clojure :exclude [==])
